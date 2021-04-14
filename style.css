@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #0f222d;
+}
+
+main {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+footer {
+  min-height: 5vh;
+  background-color: #0f222d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+footer a {
+  margin-left: 5px;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e2c51f;
+}
